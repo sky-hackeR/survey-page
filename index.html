@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <body>
+        <img src="download.jpg" alt="Thomas Adewumi University Logo">
+        <h1>Thomas Adewumi University Survey Form</h1>
+        <h3>Faculty of Computing and Applied Sciences</h3>
+        <form id="form">
+     
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+     
+                <input type="text"
+                       id="name"
+                       placeholder="Enter your name" />
+            </div>
+      
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+     
+                <input type="email"
+                       id="email"
+                       placeholder="Enter your email" />
+            </div>
+      
+            <div class="form-control">
+                <label for="age" id="label-age">
+                    Age
+                </label>
+     
+                <input type="text"
+                       id="age"
+                       placeholder="Enter your age" />
+            </div>
+      
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Which option best describes you?
+                </label>
+                 
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="Academic Staff">Academic Staff</option>
+                    <option value="intern">Intern</option>
+                    <option value="Non-Academic Staff">
+                        Non-Academic Staff
+                    </option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+      
+            <div class="form-control">
+                <label>
+                    Would you recommend Thomas Adewumi University to friends?
+                </label>
+     
+                <label for="recommend-1">
+                    <input type="radio"
+                           id="recommend-1"
+                           name="recommend">Yes
+                    </input>
+                </label>
+                <label for="recommend-2">
+                    <input type="radio"
+                           id="recommend-2"
+                           name="recommend">No
+                    </input>
+                </label>
+                <label for="recommend-3">
+                    <input type="radio"
+                           id="recommend-3"
+                           name="recommend">Maybe
+                    </input>
+                </label>
+            </div>
+        
+
+            <div class="form-control">
+                <label>
+                    Which Faculty do you belong?
+                    <small>(Check only if you are a student)</small>
+                </label>
+     
+                <label for="recommend-1">
+                    <input type="radio"
+                           id="recommend-1"
+                           name="recommend">Faculty Of Computing and Applied Sciences
+                    </input>
+                </label>
+                <label for="recommend-2">
+                    <input type="radio"
+                           id="recommend-2"
+                           name="recommend">Faculty Of Basic Medical and Health Science
+                    </input>
+                </label>
+                <label for="recommend-3">
+                    <input type="radio"
+                           id="recommend-3"
+                           name="recommend">Faculty Of Management and Social Sciences
+                    </input>
+                </label>
+                <label for="recommend-4">
+                    <input type="radio"
+                           id="recommend-4"
+                           name="recommend">Faculty Of Law
+                    </input>
+                </label>
+                <label for="recommend-5">
+                    <input type="radio"
+                           id="recommend-5"
+                           name="recommend">Faculty Of Arts and Humanities
+                    </input>
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label>Languages and Frameworks known
+                    <small>(Check all that apply)</small>
+                </label>
+        
+                <label for="inp-1">
+                    <input type="checkbox"
+                           name="inp">C
+                    </input>
+                </label>
+                <label for="inp-2">
+                    <input type="checkbox"
+                           name="inp">C++
+                    </input>
+                </label>
+                <label for="inp-3">
+                    <input type="checkbox"
+                           name="inp">C#
+                    </input>
+                </label>
+                <label for="inp-4">
+                    <input type="checkbox"
+                           name="inp">Java
+                    </input>
+                </label>
+                <label for="inp-5">
+                    <input type="checkbox"
+                           name="inp">Python
+                    </input>
+                </label>
+                <label for="inp-6">
+                    <input type="checkbox"
+                           name="inp">JavaScript
+                    </input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">React
+                    </input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Angular
+                    </input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Django
+                    </input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Spring
+                    </input>
+                </label>
+            </div>
+      
+            <div class="form-control">
+                <label for="comment">
+                    Comments or suggestions
+                </label>
+     
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+      
+            <button type="submit" value="submit">
+                Submit
+            </button>
+        </form>
+    </body>
+      
+    </html>
+</body>
+</html>
